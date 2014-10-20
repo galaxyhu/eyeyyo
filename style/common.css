@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*---------文件注释--------
+    # 文件用途：各页面的公用样式
+    # 创建人：vistahu
+    # 历史修改人：
+    # 创建日期：2014.07.03
+    # 最后修改日期：2014.07.30
+    # 创建人联系邮箱：vistahu@yeah.net
+    # 各版本说明：v1.0（创建样式）
+*/
+/*------预置样式------*/
+.tl{text-align: left;}
+.tc{text-align: center;}
+.tr{text-align: right;}
+.bc{margin-left: auto;margin-right: auto;}
+.fl{float: left;display: inline;}
+.fr{float: right;display: inline;}
+.cb{clear: both;}
+.cl{clear: left;}
+.cr{clear: right;}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{display: inline-block;}
+*html .clearfix{height: 1%;}
+.clearfix{display: block;}
+.vm{vertical-align: middle;}
+.pr{position: relative;}
+.pa{position: absolute;}
+.abs{position: absolute;right: 0;}
+.zoom{zoom: 1;}
+.hidden{visibility: hidden;}
+.none{display: none;}
